@@ -93,3 +93,20 @@ nav {
 .hero-left-btn-parent{
     margin-top: 10px;
 }
+
+/* about section */
+.about-section{
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.about-section p{
+    margin: 6px 0;
+}
+.info-cards{
+    display: flex;
+    justify-content: space-between;
+}
