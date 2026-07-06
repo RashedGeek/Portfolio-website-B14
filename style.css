@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+/* shared-styles */
+.common-btn{
+    background-color: #fd6e0a;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold ;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold ;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1 px solid #fd6e0a;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/* navbar related styles */
+
+header{
+
+    background-color: rgb(229, 174, 108);
+}
+nav {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 12px 0px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color: #fd6e0a ;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+    list-style: none;
+    align-items: center;
+}
+
+/* hero section styles */
+.hero-parent-root{
+    background-color: #FFF8F3;
+}
+.hero-parent{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero-left-p-1{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom:8px ;
+}
+.hero-left-btn-parent{
+    margin-top: 10px;
+}
