@@ -125,10 +125,11 @@ font-weight: bold;
 
 .cards-section{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 15px auto;
-    padding: 35px;
-    gap: 60px;
+    padding: 40px;
+    gap: 50px;
     border-radius: 5px;
 }
 .cards-section p{
@@ -146,4 +147,117 @@ font-weight: bold;
 }
 .box-4{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* resume related styles */
+
+/* Resume Section Styling */
+.resume-section {
+    padding: 80px 10%;
+    background-color: #FFF8F5; /* Matches the theme background */
+}
+
+/* Center-align the section heading */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Flexbox layout to push columns side-by-side */
+.resume-container {
+    display: flex;
+    gap: 50px; /* Adds space between the two columns */
+}
+
+/* Make both columns take up equal width (50% each) */
+.resume-column {
+    flex: 1;
+}
+
+.resume-column h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Individual Card Styling */
+.resume-card {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E8E8E8; /* Light grey horizontal divider line */
+}
+
+/* Remove the line from the very last card in each column */
+.resume-card:last-child {
+    border-bottom: none;
+}
+
+.resume-card h4 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.resume-card h5 {
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.resume-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* my amazing works */
+.my-amazing-parent{
+    text-align: center;
+}
+.gallery{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+     gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.box-1{
+    grid-area: one;
+    
+}
+.box-2{
+grid-area: two;
+}
+.box-3{
+    grid-area: three;
+
+}
+.box-4{
+    grid-area: four;
+
+}
+.box-5{
+    grid-area: five;
+
+}
+.box-6{
+    grid-area: six;
+
 }
