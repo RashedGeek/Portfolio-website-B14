@@ -261,3 +261,37 @@ grid-area: two;
     grid-area: six;
 
 }
+
+/* footer */
+footer{
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #FFF8F5;
+    padding: 20px;
+
+}
+.lets-connect{
+    text-align: center;
+    align-items: center;
+}
+footer form{
+    padding: 20px;
+}
+ footer p{
+        margin: 10px 0;
+    }
+footer form input, footer form textarea{
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom:8px;
+}
